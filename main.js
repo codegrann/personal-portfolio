@@ -3,5 +3,6 @@
 // document.write(window.innerHeight)
 // document.write(document.documentElement.clientHeight)
 // document.write(location);
-document.write(location.href);
-location.assign('www.github.com')
+// document.write(location.href);
+// location.replace('www.github.com')
+document.write();
