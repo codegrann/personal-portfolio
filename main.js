@@ -2,4 +2,6 @@
 // window.open('https://app.surveoo.com/en/surveys', 'survey')
 // document.write(window.innerHeight)
 // document.write(document.documentElement.clientHeight)
-document.write(location);
+// document.write(location);
+document.write(location.href);
+location.assign('www.github.com')
