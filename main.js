@@ -5,4 +5,4 @@
 // document.write(location);
 // document.write(location.href);
 // location.replace('www.github.com')
-document.write();
+document.write(history);
