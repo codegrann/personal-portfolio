@@ -24,11 +24,12 @@
   <body>
     <!-- HEADER -->
     <header>
-      <div class="navbar .navbar-expand-sm">
-        <p class="navbar-brand">Hillary Omondi</p>
-        <div class="navbar-collapse collapse">
+      <div class="navbar navbar-expand-md">
+        <p class="navbar-brand">
+          <a href="#" class="logo-text">Hillary Omondi</a>
+        </p>
+        <div class="navbar-collapse collapse" id="navbar-collapse-toggle">
           <ul class="navbar-nav">
-            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="" class="nav-link">About</a></li>
             <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
             <li class="nav-item"><a href="" class="nav-link">Services</a></li>
@@ -37,7 +38,13 @@
             <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
           </ul>
         </div>
-        <button class="navbar-toggler" data-bs-toggle="collapse">
+        <button
+          type="button"
+          class="navbar-toggler collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-collapse-toggle"
+          aria-expanded="false"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
