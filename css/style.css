@@ -1,0 +1,17 @@
+#navbar {
+  /* background: #e00606; */
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  /* justify-content: space-around; */
+}
+#navbar-brand {
+  border: 2px solid yellow;
+  padding-left: 5%;
+}
+#navbar-collapse-toggle {
+  border: 2px solid white;
+  justify-self: end;
+  margin-right: 3%;
+}
