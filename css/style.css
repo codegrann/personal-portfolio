@@ -4,7 +4,15 @@
 body {
   margin: 0;
 }
-
+#header::after {
+  /* content: ""; */
+  /* height: 10vh; */
+  /* border: 2px solid red; */
+}
+#header {
+  /* border: spx solid rgb(255, 255, 255); */
+  /* margin-bottom: 10rem; */
+}
 #navbar {
   /* background: #e00606; */
   /* border: 2px solid red; */
