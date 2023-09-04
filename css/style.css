@@ -42,11 +42,13 @@ body {
   #navbar-collapse-toggle {
     border: none;
     position: absolute;
-    top: 3.3rem;
-    margin-left: -4rem;
+    top: 3.5rem;
+    left: -15.5%;
+    /* margin-left: -5rem; */
     padding-left: 10px;
     width: 100vw;
-    background-color: green;
+    background-color: rgb(247, 249, 247);
+    box-shadow: 2px 2px 10px rgb(63, 59, 59);
   }
   .navbar-nav {
     display: flex;
@@ -56,5 +58,6 @@ body {
   }
   .nav-link {
     margin-bottom: -10px;
+    color: rgb(47, 0, 255);
   }
 }
