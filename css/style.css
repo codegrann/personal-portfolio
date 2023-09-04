@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+}
 #navbar {
   /* background: #e00606; */
   border: 2px solid red;
@@ -31,8 +34,15 @@
 }
 
 @media (max-width: 767px) {
-  #navbar {
-    /* position: relative; */
+  #navbar-collapse-toggle {
+    /* border: none; */
+    position: absolute;
+    top: 3.5rem;
+    margin-left: -4rem;
+    padding-left: 10px;
+    /* left: -rem; */
+    width: 100vw;
+    background-color: green;
     /* display: flex; */
     /* background-color: aqua; */
     /* border-radius: 2px solid rgb(8, 21, 208); */
