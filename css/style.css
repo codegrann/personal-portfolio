@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 #navbar {
   /* background: #e00606; */
   border: 2px solid red;
@@ -14,4 +17,10 @@
   border: 2px solid white;
   justify-self: end;
   margin-right: 3%;
+}
+.nav-link {
+  color: rgb(147, 176, 173);
+}
+.navbar-toggler {
+  width: 5rem;
 }
