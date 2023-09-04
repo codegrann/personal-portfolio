@@ -10,6 +10,7 @@
 #navbar-brand {
   border: 2px solid yellow;
   padding-left: 5%;
+  /* padding-left: 15px; */
 }
 #navbar-collapse-toggle {
   border: 2px solid white;
@@ -21,4 +22,15 @@
 }
 .navbar-toggler {
   width: 5rem;
+  /* order: ; */
+  /* margin-right: 15px; */
+}
+
+@media (max-width: 767px) {
+  #navbar {
+    /* position: relative; */
+    /* display: flex; */
+    /* background-color: aqua; */
+    /* border-radius: 2px solid rgb(8, 21, 208); */
+  }
 }
