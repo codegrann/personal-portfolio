@@ -14,8 +14,12 @@
 }
 #navbar-collapse-toggle {
   border: 2px solid white;
-  justify-self: end;
-  margin-right: 3%;
+  margin-left: 15%;
+  justify-content: center;
+}
+.navbar-nav {
+  display: flex;
+  gap: 5%;
 }
 .nav-link {
   color: rgb(147, 176, 173);
