@@ -6,8 +6,6 @@
   border: 2px solid red;
   display: grid;
   grid-template-columns: 1fr 2fr;
-
-  /* justify-content: space-around; */
 }
 #navbar-brand {
   border: 2px solid yellow;
