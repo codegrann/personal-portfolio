@@ -4,6 +4,11 @@
 body {
   margin: 0;
 }
+#header::after {
+  /* content: ""; */
+  /* width: 100vw; */
+  /* height: 5rem; */
+}
 #navbar {
   /* background: #e00606; */
   border: 2px solid red;
