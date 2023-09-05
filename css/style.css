@@ -49,6 +49,28 @@ body {
   width: 350px;
 }
 
+#about_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about_text,
+#about_avatar {
+  border: 2px solid blue;
+}
+#about_text {
+  width: 40%;
+}
+#about_avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+#about_avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* MEDIA QUERIES */
 @media (max-width: 480px) {
   #intro {
     /* width: 90vw; */
