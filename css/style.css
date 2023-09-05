@@ -53,6 +53,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 5%;
 }
 #about_text,
 #about_avatar {
@@ -62,7 +63,7 @@ body {
   width: 40%;
 }
 #about_avatar {
-  width: 20%;
+  width: 300px;
   border-radius: 50%;
 }
 #about_avatar img {
