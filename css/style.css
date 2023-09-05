@@ -110,6 +110,12 @@ body {
   #introImg {
     width: 300px;
   }
+  #about_page {
+    flex-direction: column;
+  }
+  #about_text {
+    width: 70%;
+  }
 }
 @media (max-width: 890px) {
   #introImg img {
