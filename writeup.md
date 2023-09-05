@@ -17,4 +17,7 @@
 
 ### About
 
+- Added tittle, paragraph about myself, social acc. icons and an avatar.
+- Made the section responsive upto small screen sizes
+
 ## FOOTER
