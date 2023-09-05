@@ -73,8 +73,12 @@ body {
 
 /* MEDIA QUERIES */
 @media (max-width: 480px) {
-  #intro {
-    /* width: 90vw; */
+  #about_text {
+    /* width: 100%; */
+    padding-inline: 1rem;
+  }
+  #about_avatar {
+    width: 280px;
   }
 }
 @media (max-width: 767px) {
@@ -114,7 +118,7 @@ body {
     flex-direction: column;
   }
   #about_text {
-    width: 70%;
+    width: calc(70% + 100px);
   }
 }
 @media (max-width: 890px) {
