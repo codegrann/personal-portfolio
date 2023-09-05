@@ -10,9 +10,11 @@
 
 ## MAIN
 
-### landing page
+### Landing page
 
 - Wrote introductory text and image.
 - Responsive on small screens.
+
+### About
 
 ## FOOTER
