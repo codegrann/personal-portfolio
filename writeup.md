@@ -27,6 +27,8 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 
 ### Skills + Services
 
+- Added technological tools I often use.
+
 ## FOOTER
 
 # Breakpoints
