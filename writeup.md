@@ -25,4 +25,16 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 - Made the section responsive upto small screen sizes
 <!-- ![assets/pic.jpeg](assets/pic.jpeg) -->
 
+### Skills + Services
+
 ## FOOTER
+
+# Breakpoints
+
+#### 480px
+
+#### 767px
+
+#### 890px
+
+###
