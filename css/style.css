@@ -4,6 +4,7 @@
 body {
   margin: 0;
   padding-top: 4rem;
+  overflow-x: hidden;
   /* background-color: black; */
 }
 
@@ -85,6 +86,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   transform: translateY(50%);
   gap: 2.5rem;
+  border: 2px solid rgb(15, 26, 242);
 }
 .techs {
   width: 90px;
@@ -125,7 +127,11 @@ body {
 }
 @media (max-width: 370px) {
   #technologies {
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: translateY(30%);
   }
 }
 @media (max-width: 480px) {
@@ -138,7 +144,7 @@ body {
   }
   #technologies {
     grid-template-columns: repeat(4, 1fr);
-    word-break: break-all;
+    justify-content: center;
   }
   .techs {
     width: 70px;
