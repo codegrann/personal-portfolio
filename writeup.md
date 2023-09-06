@@ -1,3 +1,7 @@
+# Introduction
+
+This is my personal website, showcasing my skills and portfolio. It is built with HTML, CSS and JavaScript as the core technologies with addition to libraries like Bootstrap and AOS. Hover around it and feel free to open an issue to it.
+
 # SECTIONS
 
 ## HEADER
