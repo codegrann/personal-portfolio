@@ -71,6 +71,15 @@ body {
   width: 100%;
   border-radius: 50%;
 }
+.techs {
+  width: 80px;
+  height: 80px;
+  border: 2px solid red;
+  /* background-image: url(ass);  */
+}
+.techs img {
+  width: 100%;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 480px) {
