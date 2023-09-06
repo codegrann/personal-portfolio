@@ -71,10 +71,20 @@ body {
   width: 100%;
   border-radius: 50%;
 }
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+#technologies {
+  place-self: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
 .techs {
   width: 80px;
   height: 80px;
   border: 2px solid red;
+  /* transform: rotate(45deg); */
   /* background-image: url(ass);  */
 }
 .techs img {
