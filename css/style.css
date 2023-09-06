@@ -75,19 +75,46 @@ body {
   display: flex;
   flex-direction: column;
 }
+.skills h1,
+.skills h5 {
+  margin-left: 5vw;
+}
 #technologies {
   place-self: center;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  transform: translateY(40%);
+  transform: translateY(50%);
   gap: 2.5rem;
 }
 .techs {
   width: 90px;
   height: 90px;
   border: 2px solid red;
+  /* animation: rotate 5s ease-out infinite; */
   /* transform: rotate(45deg); */
   /* background-image: url(ass);  */
+}
+@keyframes rotate {
+  0% {
+    transform: rotateX(10deg);
+    transform: rotateY(10deg);
+  }
+  30% {
+    transform: rotateX(30deg);
+    transform: rotateY(30deg);
+  }
+  50% {
+    transform: rotateX(50deg);
+    transform: rotateY(50deg);
+  }
+  80% {
+    transform: rotateX(80deg);
+    transform: rotateY(80deg);
+  }
+  100% {
+    transform: rotateX(10deg);
+    transform: rotateY(10deg);
+  }
 }
 .techs img {
   width: 100%;
@@ -141,6 +168,12 @@ body {
   }
   #about_text {
     width: calc(70% + 100px);
+  }
+  #technologies {
+    gap: 1.5rem;
+  }
+  .techs {
+    /* width: 15vw; */
   }
 }
 @media (max-width: 890px) {
