@@ -33,6 +33,8 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 
 # Breakpoints
 
+### 370px
+
 #### 480px
 
 #### 767px
