@@ -121,6 +121,13 @@ body {
 }
 
 /* MEDIA QUERIES */
+@media (max-width: 320px) {
+}
+@media (max-width: 370px) {
+  #technologies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 480px) {
   #about_text {
     /* width: 100%; */
@@ -128,6 +135,14 @@ body {
   }
   #about_avatar {
     width: 280px;
+  }
+  #technologies {
+    grid-template-columns: repeat(4, 1fr);
+    word-break: break-all;
+  }
+  .techs {
+    width: 70px;
+    height: 70px;
   }
 }
 @media (max-width: 767px) {
@@ -170,7 +185,7 @@ body {
     width: calc(70% + 100px);
   }
   #technologies {
-    gap: 1.5rem;
+    gap: 1.2rem;
   }
   .techs {
     /* width: 15vw; */
