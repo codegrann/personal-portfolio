@@ -79,10 +79,12 @@ body {
   place-self: center;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  transform: translateY(40%);
+  gap: 2.5rem;
 }
 .techs {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border: 2px solid red;
   /* transform: rotate(45deg); */
   /* background-image: url(ass);  */
