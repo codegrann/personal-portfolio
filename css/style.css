@@ -123,13 +123,14 @@ body {
 }
 #services {
   border: 2px solid black;
-  padding-block: 4rem;
+  padding-block: 2rem;
   display: flex;
   place-content: center;
   column-gap: 2rem;
 }
 .service {
   width: 23vw;
+  border: 2px solid blue;
 }
 .service img {
   width: 100%;
