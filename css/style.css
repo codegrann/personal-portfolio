@@ -122,7 +122,11 @@ body {
   width: 100%;
 }
 #services {
+  border: 2px solid black;
+  padding-block: 4rem;
   display: flex;
+  place-content: center;
+  column-gap: 2rem;
 }
 .service {
   width: 24vw;
