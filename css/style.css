@@ -135,11 +135,18 @@ body {
 .service img {
   width: 100%;
 }
+#hireme {
+  border: 2px solid red;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
-  #services div {
-    width: 90vw;
+  #services {
+    padding: 0;
   }
 }
 @media (max-width: 370px) {
