@@ -28,12 +28,16 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 ### Skills + Services
 
 - Added technological tools I often use.
+- Added two services I provide
+- Added a bunner to welcome freelance hires
 
 ## FOOTER
 
 # Breakpoints
 
-### 370px
+#### 320px
+
+#### 370px
 
 #### 480px
 
