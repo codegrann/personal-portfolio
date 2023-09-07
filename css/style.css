@@ -245,6 +245,9 @@ body {
   .service {
     width: 270px;
   }
+  #hireme {
+    flex-direction: column;
+  }
 }
 @media (max-width: 890px) {
   #introImg img {
