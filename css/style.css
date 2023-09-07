@@ -129,7 +129,7 @@ body {
   column-gap: 2rem;
 }
 .service {
-  width: 23vw;
+  width: 300px;
   border: 2px solid blue;
 }
 .service img {
@@ -138,6 +138,9 @@ body {
 
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
+  #services div {
+    width: 90vw;
+  }
 }
 @media (max-width: 370px) {
   #technologies {
@@ -168,6 +171,14 @@ body {
   }
   .techs:nth-last-child(2) {
     grid-column: 2/3;
+  }
+  #services {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.7rem;
+  }
+  #services div {
+    width: 75vw;
   }
 }
 @media (max-width: 767px) {
@@ -214,6 +225,12 @@ body {
   }
   .techs {
     /* width: 15vw; */
+  }
+  #services {
+    column-gap: 0.9rem;
+  }
+  .service {
+    width: 270px;
   }
 }
 @media (max-width: 890px) {
