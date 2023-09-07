@@ -121,6 +121,15 @@ body {
 .techs img {
   width: 100%;
 }
+#services {
+  display: flex;
+}
+.service {
+  width: 24vw;
+}
+.service img {
+  width: 100%;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
