@@ -176,22 +176,10 @@ body {
 .project img {
   width: 100%;
 }
-.project p {
-  /* display: none; */
-  visibility: hidden;
-  width: 80%;
-  border: 2px solid red;
-  position: relative;
-  top: -50%;
-  left: 10%;
-  color: blue;
-  text-align: center;
-  /* z-index: 1; */
-}
 .projDetails {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 /* MEDIA QUERIES */
