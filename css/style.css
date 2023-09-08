@@ -191,10 +191,8 @@ body {
     row-gap: 1.7rem;
   }
   #services div {
-    /* width: 75vw; */
-  }
-  .service {
-    /* width: 90vw; */
+    position: relative;
+    width: 85vw;
   }
 }
 @media (max-width: 767px) {
