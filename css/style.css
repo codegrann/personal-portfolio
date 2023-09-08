@@ -148,6 +148,26 @@ body {
   border: none;
   background-color: rgb(61, 150, 222);
 }
+#projects {
+  border: 2px solid red;
+  /* width: 80vw; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 2.5rem;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* justify-content: center; */
+  /* place-content: center; */
+}
+.project {
+  width: 350px;
+}
+.project img {
+  width: 100%;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
