@@ -8,7 +8,7 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 
 ------Home About Skills Services Portfolio Blog Contact
 
-- Clicking navbar-toggler expands the navbar
+- Clicking navbar-toggler expands the navbar.
 - Menu list expands on medium screen sizes upto large.
 - Navbar indicates current page location/active page.
 
@@ -22,14 +22,20 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 ### About
 
 - Added tittle, paragraph about myself, social acc. icons and an avatar.
-- Made the section responsive upto small screen sizes
+- Made the section responsive upto small screen sizes.
 <!-- ![assets/pic.jpeg](assets/pic.jpeg) -->
 
 ### Skills + Services
 
 - Added technological tools I often use.
-- Added two services I provide
-- Added a bunner to welcome freelance hires
+- Added three services I provide.
+- Added a bunner to welcome freelance hires.
+
+### Projects
+
+- Included 6 projects completed
+- Each has a button that opens a modal to show additional information about the project.
+- Each has a link to the live demo of the project.
 
 ## FOOTER
 
@@ -45,4 +51,14 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 
 #### 890px
 
-###
+# Tools
+
+### Languages
+
+- HTML, CSS, Javascript
+
+### Libraries
+
+- Bootstrap, AOS
+
+### Hosting
