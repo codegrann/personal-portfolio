@@ -170,10 +170,13 @@ body {
 }
 .project p {
   /* display: none; */
+  width: 80%;
+  border: 2px solid red;
   position: relative;
   top: -50%;
-  left: 30%;
+  left: 10%;
   color: blue;
+  text-align: center;
 }
 .projDetails {
   display: flex;
