@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".nav-link");
   const togglerButton = document.querySelector("#navbar-toggler");
   const navbarCollapse = document.getElementById("navbar-collapse-toggle");
+
+  // console.log(document.querySelector("#projects"));
   // Attach a click event listener to each navigation link
   //   if (window.innerWidth < "768px") {
   navLinks.forEach(function (link) {
