@@ -37,6 +37,10 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 - Each has a button that opens a modal to show additional information about the project.
 - Each has a link to the live demo of the project.
 
+### Articles
+
+- Added 1 article + a redirect link to medium.
+
 ## FOOTER
 
 # Breakpoints
