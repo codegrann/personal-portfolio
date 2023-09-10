@@ -181,7 +181,13 @@ body {
   justify-content: space-between;
   margin-top: 1rem;
 }
-
+#articles {
+  place-content: center;
+}
+#unary {
+  border: 2px solid blue;
+  margin: 0 auto;
+}
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
   #services {
