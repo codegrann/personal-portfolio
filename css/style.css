@@ -182,12 +182,18 @@ body {
   margin-top: 1rem;
 }
 #articles {
-  place-content: center;
+  /* place-content: center; */
 }
 #unary {
   border: 2px solid blue;
-  margin: 0 auto;
+  width: 270px;
+  /* margin: 0 auto; */
 }
+#unary img {
+  width: 100%;
+  height: 240px;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
   #services {
