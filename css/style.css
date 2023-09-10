@@ -194,6 +194,13 @@ body {
   width: 100%;
   height: 240px;
 }
+#newsletter {
+  /* width: ; */
+  display: grid;
+  grid-template-columns: repeat(2, 1px);
+  align-items: center;
+  border: 2px solid black;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
