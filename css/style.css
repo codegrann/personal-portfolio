@@ -226,7 +226,9 @@ body {
 #contact textarea {
   height: 170px;
 }
-
+#contact button {
+  width: 90px;
+}
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
   #services {
