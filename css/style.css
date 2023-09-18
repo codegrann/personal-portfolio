@@ -211,7 +211,6 @@ body {
 }
 #newsletter button {
 }
-#contact div,
 #contact form {
   display: flex;
   flex-direction: column;
