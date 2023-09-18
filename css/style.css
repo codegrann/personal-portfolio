@@ -214,10 +214,17 @@ body {
 #contact form {
   display: flex;
   flex-direction: column;
+  padding: 3rem;
 }
 #contact div {
   width: 70%;
   margin: 0 auto;
+}
+.inputs {
+  min-height: 60px;
+}
+#contact textarea {
+  height: 170px;
 }
 
 /* MEDIA QUERIES */
@@ -280,6 +287,15 @@ body {
     /* margin-top: 0.75rem; */
     /* position: relative; */
     /* top: 3rem; */
+  }
+  #contact div {
+    width: 90%;
+  }
+  #contact form {
+    padding: 2.5%;
+  }
+  .inputs {
+    min-height: 40px;
   }
 }
 @media (max-width: 767px) {
