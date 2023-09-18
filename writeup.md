@@ -42,6 +42,10 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 - Added 1 article + a redirect link to medium.
 - Added a form to subscribe for a newsletter.
 
+### Contact
+
+- Structured a contact form to contain fields for name, email and message, plus a submit button to send the message.
+
 ## FOOTER
 
 # Breakpoints

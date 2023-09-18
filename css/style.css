@@ -72,6 +72,18 @@ body {
   width: 100%;
   border-radius: 50%;
 }
+#socials {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+  text-align: center;
+  margin: 0 auto;
+}
+#socials a {
+  color: black;
+  font-size: 1.5rem;
+}
 .skills {
   display: flex;
   flex-direction: column;
@@ -211,6 +223,9 @@ body {
 }
 #newsletter button {
 }
+#contact {
+  padding-bottom: 2rem;
+}
 #contact form {
   display: flex;
   flex-direction: column;
@@ -228,6 +243,9 @@ body {
 }
 #contact button {
   width: 90px;
+}
+#contact #socials {
+  width: 180px;
 }
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
