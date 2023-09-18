@@ -234,9 +234,8 @@ body {
   }
   #newsletter button {
     /* margin: 0.75rem; */
-    position: relative;
-    top: 3rem;
-    display: none;
+    border: 2px solid red;
+    margin-top: 0.5rem;
   }
 }
 @media (max-width: 480px) {
@@ -268,6 +267,11 @@ body {
   #services div {
     position: relative;
     width: 85vw;
+  }
+  #newsletter button {
+    /* margin-top: 0.75rem; */
+    /* position: relative; */
+    /* top: 3rem; */
   }
 }
 @media (max-width: 767px) {
