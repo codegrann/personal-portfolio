@@ -45,7 +45,7 @@ body {
 }
 #wave {
   /* background-color: red; */
-  animation: welcome 900ms ease-in-out infinite;
+  animation: welcome 2s ease-in-out infinite;
   /* visibility: hidden; */
   display: inline-block;
   transform-origin: 30px 30px;
