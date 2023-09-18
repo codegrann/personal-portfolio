@@ -82,6 +82,34 @@ body {
     visibility: hidden;
   }
 }
+#name-anime {
+  font-size: 24px;
+  border-right: 2px solid #333;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 6s steps(40, end) forwards,
+    blink-caret 0.5s step-end infinite;
+}
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #333;
+  }
+}
+
 #introImg {
   border: 2px solid green;
   width: 40%;
