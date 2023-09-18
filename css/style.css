@@ -43,6 +43,44 @@ body {
   border: 2px solid black;
   width: 45%;
 }
+#wave {
+  background-color: red;
+  animation: welcome 5s ease-in-out infinite;
+  /* visibility: hidden; */
+  display: inline-block;
+  /* transform: rotate(30deg); */
+}
+@keyframes welcome {
+  0% {
+    /* visibility: visible; */
+    opacity: 0.1;
+    background-color: rgb(8, 8, 8);
+  }
+  30% {
+    visibility: visible;
+    background-color: blue;
+    opacity: 0.3;
+    transform: rotate(-30deg);
+    /* transform: translate(2); */
+  }
+  50% {
+    background-color: green;
+    opacity: 0.5;
+    transform: rotate(60deg);
+    /* transform: translate(1); */
+  }
+  60% {
+    transform: rotate(-30deg);
+  }
+  80% {
+    opacity: 0.8;
+    /* transform: rotate(-30deg); */
+  }
+  95% {
+    opacity: 0.9;
+    visibility: hidden;
+  }
+}
 #introImg {
   border: 2px solid green;
   width: 40%;
