@@ -211,6 +211,15 @@ body {
 }
 #newsletter button {
 }
+#contact div,
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+#contact div {
+  width: 70%;
+  margin: 0 auto;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
