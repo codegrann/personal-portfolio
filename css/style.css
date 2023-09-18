@@ -198,13 +198,16 @@ body {
   /* width: ; */
   display: flex;
   flex-wrap: wrap;
-  /* place-content: center; */
+  place-content: center;
+  column-gap: 3%;
   border: 2px solid black;
 }
 #newsletter p {
   width: 100%;
+  text-align: center;
 }
 #newsletter input {
+  width: 300px;
 }
 #newsletter button {
 }
@@ -214,6 +217,12 @@ body {
   #services {
     padding: 0;
   }
+  #newsletter input {
+    /* width: 70%; */
+  }
+  #newsletter button {
+    /* display: block; */
+  }
 }
 @media (max-width: 370px) {
   #technologies {
@@ -222,6 +231,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     transform: translateY(30%);
+  }
+  #newsletter button {
+    /* margin: 0.75rem; */
+    position: relative;
+    top: 3rem;
+    display: none;
   }
 }
 @media (max-width: 480px) {
