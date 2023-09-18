@@ -48,6 +48,8 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 
 ## FOOTER
 
+- Included my social links at the footer
+
 # Breakpoints
 
 #### 320px
@@ -68,6 +70,6 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 
 ### Libraries
 
-- Bootstrap, AOS
+- Bootstrap, AOS, Bootstrap Icons
 
 ### Hosting
