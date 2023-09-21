@@ -166,16 +166,26 @@ body {
   border-radius: 50%;
 }
 .socials {
-  width: 180px;
+  width: 250px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border: 2px solid red;
   text-align: center;
   margin: 0 auto;
 }
 .socials a {
-  color: black;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #051b35;
+  color: #ffffff;
   font-size: 1.5rem;
+  border-radius: 3px;
+}
+.socials a:hover {
+  color: #2c3038;
+  background-color: #ffffff;
+  border: 2px solid #051b35;
 }
 .skills {
   display: flex;
@@ -366,30 +376,27 @@ body {
 #footer {
   height: 250px;
   background-color: #051b35;
+  text-align: center;
 }
 #footer .socials {
   display: flex;
   width: 250px;
   justify-content: space-around;
+  border: none;
 }
-.socials div {
+#footer .socials a {
   background: #ffffff;
+  color: #2c3038;
   width: 40px;
   height: 40px;
   line-height: 40px;
-  text-align: center;
+  border-radius: 3px;
+  /* text-align: center; */
 }
-.socials div:hover,
 #footer .socials a:hover {
   background: transparent;
-  color: wheat;
-}
-#footer .socials a {
-  color: #2c3038;
-}
-#footer .socials a:hover {
-  /* background: transparent; */
-  /* color: wheat; */
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 /* MEDIA QUERIES */
