@@ -376,7 +376,14 @@ body {
 #footer {
   height: 250px;
   background-color: #051b35;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align */
   text-align: center;
+  padding-top: 1.75rem;
+}
+#footer h1 {
+  color: #ffffff;
 }
 #footer .socials {
   display: flex;
