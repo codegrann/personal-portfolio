@@ -45,8 +45,9 @@ body {
   height: 60%;
   margin: auto;
   position: relative;
-  top: 26%;
+  top: 22%;
   text-align: center;
+  padding-block: 3rem;
 }
 #wave {
   /* background-color: red; */
