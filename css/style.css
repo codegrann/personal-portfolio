@@ -115,14 +115,28 @@ body {
     border-color: #333;
   }
 }
-
-#introImg {
+#landingPage a {
+  display: block;
+  background-color: rgb(238, 235, 231);
+  text-decoration: none;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  top: 115px;
+  /* z-index: 1; */
+  border: 1px soild white;
+}
+#landingPage a:hover {
+  background-color: blue;
+  color: white;
+}
+/* #introImg {
   border: 2px solid green;
   width: 40%;
 }
 #introImg img {
   width: 350px;
-}
+} */
 
 #about_page {
   display: flex;
