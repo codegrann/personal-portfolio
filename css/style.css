@@ -165,7 +165,7 @@ body {
   width: 100%;
   border-radius: 50%;
 }
-#socials {
+.socials {
   width: 180px;
   display: flex;
   justify-content: space-between;
@@ -173,7 +173,7 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-#socials a {
+.socials a {
   color: black;
   font-size: 1.5rem;
 }
@@ -363,9 +363,35 @@ body {
 #contact button {
   width: 90px;
 }
-#contact #socials {
-  width: 180px;
+#footer {
+  height: 250px;
+  background-color: #051b35;
 }
+#footer .socials {
+  display: flex;
+  width: 250px;
+  justify-content: space-around;
+}
+.socials div {
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.socials div:hover,
+#footer .socials a:hover {
+  background: transparent;
+  color: wheat;
+}
+#footer .socials a {
+  color: #2c3038;
+}
+#footer .socials a:hover {
+  /* background: transparent; */
+  /* color: wheat; */
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
   #services {
