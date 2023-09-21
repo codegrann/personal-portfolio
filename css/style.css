@@ -42,9 +42,11 @@ body {
 #intro {
   border: 2px solid black;
   width: 45%;
+  height: 60%;
   margin: auto;
   position: relative;
   top: 26%;
+  text-align: center;
 }
 #wave {
   /* background-color: red; */
