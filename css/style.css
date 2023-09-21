@@ -201,6 +201,10 @@ body {
   /* transform: rotate(45deg); */
   /* background-image: url(ass);  */
 }
+.techs img {
+  width: 100%;
+  height: 100%;
+}
 @keyframes rotate {
   0% {
     transform: rotateX(10deg);
