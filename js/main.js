@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const togglerButton = document.querySelector("#navbar-toggler");
   const navbarCollapse = document.getElementById("navbar-collapse-toggle");
   const nameAnimation = document.querySelector("#name-anime");
-  const name = "Hillary Omondi, a web developer";
+  const name = "I'm a passionate web developer";
   nameAnimation.style.color = "red";
   // nameAnimation.innerHTML = "hey";
   let isTyping = true;
