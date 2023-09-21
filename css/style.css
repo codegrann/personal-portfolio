@@ -204,6 +204,20 @@ body {
   /* filter: blur(0.5px); */
   filter: brightness(55%);
   filter: grayscale(40%);
+  /* transform: rotate(360deg); */
+  /* transition: transform 10s; */
+  animation: tech-rotate 10s infinite ease-in-out alternate-reverse;
+}
+@keyframes tech-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    /* transform: rotate(180deg); */
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .techs img {
   width: 100%;
