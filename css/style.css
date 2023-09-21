@@ -259,6 +259,7 @@ body {
 .service {
   width: 260px;
   border: 2px solid blue;
+  padding: 0.3rem;
 }
 .service img {
   width: 100%;
