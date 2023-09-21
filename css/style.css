@@ -148,6 +148,7 @@ body {
   justify-content: center;
   align-items: center;
   column-gap: 5%;
+  margin-block: 2rem;
 }
 #about_text,
 #about_avatar {
