@@ -7,7 +7,9 @@ body {
   overflow-x: hidden;
   /* background-color: black; */
 }
-
+.modal {
+  text-align: center;
+}
 #navbar {
   /* background: #e00606; */
   /* border: 2px solid red; */
