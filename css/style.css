@@ -1,3 +1,7 @@
+:root {
+  --text-color: rgb(196, 234, 230);
+  --dark-bg: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
 * {
   box-sizing: border-box;
 }
@@ -16,7 +20,7 @@ body {
   /* background-color: #000; */
 }
 #navbar {
-  background: #383838;
+  /* background: #383838; */
   height: 13vh;
   /* border: 2px solid red; */
   display: grid;
@@ -39,7 +43,8 @@ body {
   gap: 5%;
 }
 .nav-link {
-  color: rgb(147, 176, 173);
+  /* color: rgb(196, 234, 230); * */
+  color: var(--text-color);
 }
 .navbar-toggler {
   width: 5rem;
@@ -292,6 +297,8 @@ body {
 #hireme {
   border: 2px solid red;
   height: 30vh;
+  /* color: rgb(196, 234, 230); */
+  color: var(--text-color);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
