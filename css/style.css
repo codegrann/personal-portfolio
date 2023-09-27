@@ -11,18 +11,20 @@ body {
   text-align: center;
 }
 #header {
-  border: 3px solid yellow;
-  background-color: #000;
+  /* height: 500px; */
+  /* border: 3px solid yellow; */
+  /* background-color: #000; */
 }
 #navbar {
+  /* height: 10rem; */
   background: #383838;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: grid;
   grid-template-columns: 1fr 2fr;
-  height: 9vh;
+  height: 13vh;
 }
 #navbar div {
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 #navbar-collapse-toggle {
   /* border: 2px solid white; */
