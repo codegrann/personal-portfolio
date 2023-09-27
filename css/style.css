@@ -141,12 +141,11 @@ body {
   width: 100px;
   margin: 0 auto;
   position: relative;
-  top: 115px;
+  top: 43%;
   /* z-index: 1; */
   border: 1px soild white;
 }
 #landingPage a:hover {
-  background-color: ;
   color: var(--text-color);
   background: rgb(8, 8, 15);
   border: 1px solid var(--text-color);
