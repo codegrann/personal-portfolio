@@ -507,7 +507,7 @@ body {
     min-height: 40px;
   }
   #name-anime {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 @media (max-width: 767px) {
