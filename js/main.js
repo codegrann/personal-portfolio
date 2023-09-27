@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const navbarCollapse = document.getElementById("navbar-collapse-toggle");
   const nameAnimation = document.querySelector("#name-anime");
   const name = "I'm a passionate web developer";
-  nameAnimation.style.color = "red";
+  nameAnimation.style.color = "aqua";
   // nameAnimation.innerHTML = "hey";
   let isTyping = true;
   let charIndex = 0;

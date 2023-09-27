@@ -53,18 +53,21 @@ body {
 }
 #landingPage {
   border: 2px solid red;
-  background-color: rgb(16, 16, 16);
+  background-color: rgb(8, 8, 15);
   /* background-image: url(../assets/img1.jpeg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-backdrop-filter: blur(2rem);
-  -moz-backdrop-filter: blur(2rem);
+  /* -webkit-backdrop-filter: blur(2rem); */
+  /* -moz-backdrop-filter: blur(2rem); */
   /* filter: blur(2rem); */
   height: 100vh;
 }
 #intro {
-  border: 2px solid rgb(170, 161, 161);
+  /* border: 2px solid rgb(170, 161, 161); */
+  box-shadow: 3px 3px 3px white, -3px -3px 3px white;
+  border-radius: 2px;
+  color: var(--text-color);
   width: 45%;
   height: 60%;
   margin: auto;
@@ -151,8 +154,10 @@ body {
   border: 1px soild white;
 }
 #landingPage a:hover {
-  background-color: blue;
-  color: white;
+  background-color: ;
+  color: var(--text-color);
+  background: rgb(8, 8, 15);
+  border: 1px solid var(--text-color);
 }
 /* #introImg {
   border: 2px solid green;
