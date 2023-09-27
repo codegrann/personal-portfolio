@@ -16,12 +16,15 @@ body {
   /* background-color: #000; */
 }
 #navbar {
-  /* height: 10rem; */
   background: #383838;
+  height: 13vh;
   /* border: 2px solid red; */
   display: grid;
   grid-template-columns: 1fr 2fr;
-  height: 13vh;
+  /* font-family: Mova; */
+  font-size: 21px;
+  font-weight: 450;
+  letter-spacing: 0.1rem;
 }
 #navbar div {
   /* border: 2px solid green; */
