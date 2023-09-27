@@ -1,6 +1,5 @@
 :root {
   --text-color: rgb(196, 234, 230);
-  --dark-bg: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 * {
   box-sizing: border-box;
@@ -28,7 +27,7 @@ body {
   /* font-family: Mova; */
   font-size: 21px;
   font-weight: 450;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.8px;
 }
 #navbar div {
   /* border: 2px solid green; */
@@ -558,5 +557,10 @@ body {
 @media (max-width: 890px) {
   #introImg img {
     width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .collapse {
+    font-size: 14px;
   }
 }
