@@ -52,15 +52,7 @@ body {
   /* margin-right: 15px; */
 }
 #landingPage {
-  border: 2px solid red;
   background-color: rgb(8, 8, 15);
-  /* background-image: url(../assets/img1.jpeg); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* -webkit-backdrop-filter: blur(2rem); */
-  /* -moz-backdrop-filter: blur(2rem); */
-  /* filter: blur(2rem); */
   height: 100vh;
 }
 #intro {
@@ -459,6 +451,13 @@ body {
     border: 2px solid red;
     margin-top: 0.5rem;
   }
+  #intro {
+    width: 100%;
+    /* display: none; */
+  }
+  #name-anime {
+    font-size: 10px;
+  }
 }
 @media (max-width: 480px) {
   #about_text {
@@ -504,6 +503,9 @@ body {
   .inputs {
     min-height: 40px;
   }
+  #name-anime {
+    font-size: 18px;
+  }
 }
 @media (max-width: 767px) {
   #navbar-collapse-toggle {
@@ -529,11 +531,13 @@ body {
   }
   #landingPage {
     flex-direction: column;
-    height: auto;
+    height: 80vh;
   }
   #intro {
-    width: 100%;
+    width: 80%;
     padding-inline: 1rem;
+    /* word-wrap: break-word; */
+    /* flex-wrap: wrap; */
   }
   #introImg {
     width: 300px;
