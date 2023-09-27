@@ -460,6 +460,9 @@ body {
   }
 }
 @media (max-width: 480px) {
+  #navbar {
+    height: 9vh;
+  }
   #about_text {
     /* width: 100%; */
     padding-inline: 1rem;
