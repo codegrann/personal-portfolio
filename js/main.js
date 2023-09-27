@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     link.addEventListener("click", function () {
       // Check if the navigation menu is expanded
       if (navbarCollapse.style.display !== "none") {
+        // navbarCollapse.style.backgroundColor = "black";
         // If expanded, close the navigation menu
         togglerButton.click();
       }

@@ -28,6 +28,7 @@ body {
   font-size: 21px;
   font-weight: 450;
   letter-spacing: 0.8px;
+  box-shadow: 5px 5px 5px rgb(86, 80, 80);
 }
 #navbar div {
   /* border: 2px solid green; */
@@ -562,5 +563,6 @@ body {
 @media (max-width: 1000px) {
   .collapse {
     font-size: 14px;
+    background-color: rgb(1, 1, 3);
   }
 }
