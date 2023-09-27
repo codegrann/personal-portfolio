@@ -329,7 +329,9 @@ body {
 }
 #unary {
   border: 2px solid blue;
-  width: 270px;
+  width: 300px;
+  background: #afa6a6;
+  text-align: center;
   /* margin-left: 5rem; */
   margin: 0 auto;
 }
