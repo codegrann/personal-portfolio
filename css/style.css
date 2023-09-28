@@ -211,7 +211,7 @@ body {
   border-radius: 50%;
 }
 .socials {
-  width: 220px;
+  width: 230px;
   display: flex;
   justify-content: space-around;
   /* border: 2px solid red; */
@@ -219,9 +219,9 @@ body {
   margin: 0 auto;
 }
 .socials a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
   background-color: #051b35;
   color: #ffffff;
   font-size: 1.5rem;
@@ -495,6 +495,11 @@ body {
   #name-anime {
     font-size: 10px;
   }
+  #about_text {
+    /* width: 8px; */
+    /* border: 2px solid red; */
+    padding-bottom: 2rem;
+  }
 }
 @media (max-width: 480px) {
   #navbar {
@@ -502,7 +507,7 @@ body {
   }
   #about_text {
     /* width: 100%; */
-    padding-inline: 1rem;
+    padding-inline: 0.5rem;
   }
   #about_avatar {
     width: 280px;
@@ -587,6 +592,9 @@ body {
   }
   #about_text {
     width: calc(70% + 100px);
+  }
+  #about_avatar {
+    margin-top: 1.5rem;
   }
   #technologies {
     gap: 1.2rem;
