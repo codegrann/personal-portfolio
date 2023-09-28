@@ -5,6 +5,8 @@
   --small-font: 15px;
   --transition-quick: 200ms;
   --transition-slow: 500ms;
+  --font-light: rgb(168, 145, 145);
+  --font-dark: rgb(36, 35, 35);
 }
 * {
   box-sizing: border-box;
@@ -184,6 +186,7 @@ body {
   padding-inline: 0.75rem;
   font-family: var(--font-primary);
   font-size: var(--small-font);
+  color: var(--font-dark)
   letter-spacing: -0.2px;
   padding-bottom: 5px;
   border-radius: 4px;
