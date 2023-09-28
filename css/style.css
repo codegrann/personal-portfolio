@@ -1,5 +1,7 @@
 :root {
   --text-color: rgb(196, 234, 230);
+  --font-primary: monospace;
+  --bg-light: rgb(239, 236, 236);
 }
 * {
   box-sizing: border-box;
@@ -137,8 +139,12 @@ body {
 #landingPage a {
   display: block;
   background-color: rgb(238, 235, 231);
+  font-family: var(--font-primary);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -1px;
   text-decoration: none;
-  width: 100px;
+  width: 120px;
   margin: 0 auto;
   position: relative;
   top: 43%;
@@ -159,18 +165,20 @@ body {
 } */
 
 #about_page {
+  background-color: var(--bg-light);
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 5%;
-  margin-block: 2rem;
-}
-#about_text,
-#about_avatar {
-  border: 2px solid blue;
+  padding-block: 2rem;
+  /* margin-block: 2rem; */
 }
 #about_text {
+  /* border: 2px solid blue; */
   width: 40%;
+  box-shadow: 2px 2px 10px rgb(179, 177, 177), -2px -2px 10px rgb(179, 177, 177);
+}
+#about_text {
 }
 #about_avatar {
   width: 300px;
