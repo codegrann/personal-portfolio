@@ -449,9 +449,12 @@ body {
 #footer .socials a {
   background: #ffffff;
   color: #2c3038;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 35px;
+  height: 35px;
+  line-height: 34px;
+  /* width: 40px; */
+  /* height: 40px; */
+  /* line-height: 40px; */
   border-radius: 3px;
   transition: color, background-color var(--transition-slow);
   transition-timing-function: ease-out;
