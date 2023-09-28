@@ -402,6 +402,8 @@ body {
   width: 300px;
 }
 #newsletter button {
+  transition: color, background-color var(--transition-slow);
+  transition-timing-function: ease-out;
 }
 #contact {
   padding-bottom: 2rem;
@@ -423,6 +425,8 @@ body {
 }
 #contact button {
   width: 90px;
+  transition: color, background-color var(--transition-slow);
+  transition-timing-function: ease-out;
 }
 #footer {
   height: 250px;
@@ -449,6 +453,8 @@ body {
   height: 40px;
   line-height: 40px;
   border-radius: 3px;
+  transition: color, background-color var(--transition-slow);
+  transition-timing-function: ease-out;
   /* text-align: center; */
 }
 #footer .socials a:hover {
