@@ -2,6 +2,7 @@
   --text-color: rgb(196, 234, 230);
   --font-primary: Montserrat;
   --bg-light: rgb(239, 236, 236);
+  --small-font: 15px;
 }
 * {
   box-sizing: border-box;
@@ -180,7 +181,7 @@ body {
   width: 40%;
   padding-inline: 0.75rem;
   font-family: var(--font-primary);
-  font-size: 14px;
+  font-size: var(--small-font);
   letter-spacing: -0.2px;
   padding-bottom: 5px;
   border-radius: 4px;
