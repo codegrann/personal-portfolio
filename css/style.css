@@ -27,12 +27,12 @@ body {
 }
 #navbar {
   /* background: #383838; */
-  height: 13vh;
+  height: 10vh;
   /* border: 2px solid red; */
   display: grid;
   grid-template-columns: 1fr 2fr;
   /* font-family: Mova; */
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 450;
   letter-spacing: 0.8px;
   box-shadow: 5px 5px 5px rgb(86, 80, 80);
@@ -176,7 +176,7 @@ body {
   justify-content: center;
   align-items: center;
   column-gap: 5%;
-  padding-block: 2rem;
+  padding-block: 6rem;
   /* margin-block: 2rem; */
 }
 #about_text {
