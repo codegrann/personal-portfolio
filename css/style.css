@@ -213,6 +213,20 @@ body {
   width: 100%;
   border-radius: 50%;
 }
+/* .about_decor{ */
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color:  #051b35; */
+  /* border-radius: 50%; */
+  /* position: relative; */
+  /* z-index: -0; */
+  /* right: 35rem; */
+/* } */
+/* #decor_top{ */
+  /* top: -14rem; */
+  /* right: -7rem; */
+/* } */
+/* #decor_bot{} */
 .socials {
   width: 230px;
   display: flex;
