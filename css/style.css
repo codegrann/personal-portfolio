@@ -5,7 +5,7 @@
   --small-font: 15px;
   --transition-quick: 200ms;
   --transition-slow: 500ms;
-  --font-light: rgb(168, 145, 145);
+  --font-light: rgb(231, 221, 221);
   --font-dark: rgb(36, 35, 35);
 }
 * {
@@ -254,6 +254,10 @@ body {
 .skills {
   display: flex;
   flex-direction: column;
+  color: var(--font-light);
+}
+.skills h1{
+  text-shadow: 10px 10px 10px white;
 }
 .skills h1,
 .skills h5,
