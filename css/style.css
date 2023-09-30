@@ -286,14 +286,14 @@ body {
 .techs {
   width: 75px;
   height: 75px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-radius: 50%;
   /* animation: rotate 5s ease-out infinite; */
   /* transform: rotate(45deg); */
   /* background-image: url(ass);  */
-  /* filter: blur(0.5px); */
-  filter: brightness(55%);
-  filter: grayscale(40%);
+  /* filter: blur(50rem); */
+  filter: brightness(10%);
+  filter: grayscale(20%);
   /* transform: rotate(360deg); */
   /* transition: transform 10s; */
   animation: tech-rotate 10s infinite ease-in-out alternate-reverse;
