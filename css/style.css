@@ -254,6 +254,7 @@ body {
 .skills {
   display: flex;
   flex-direction: column;
+  /* font-family: var(--font-primary); */
   color: var(--font-light);
 }
 .skills h1{
@@ -266,6 +267,7 @@ body {
 #blogging,
 #contact_me {
   margin-left: 5vw;
+   font-family: var(--font-primary);
 }
 #technologies {
   place-self: center;
