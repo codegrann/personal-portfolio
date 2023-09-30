@@ -260,6 +260,9 @@ body {
 .skills h1{
   text-shadow: 10px 10px 10px white;
 }
+.skills h5{
+  font-weight: 700;
+}
 .skills h1,
 .skills h5,
 #serve,
