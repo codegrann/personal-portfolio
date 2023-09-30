@@ -277,9 +277,10 @@ body {
   place-self: center;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  transform: translateY(50%);
+  transform: translateY(20%);
   gap: 2.5rem;
   border: 2px solid rgb(15, 26, 242);
+  /* text-align: center; */
 }
 .techs {
   width: 90px;
