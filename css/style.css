@@ -376,6 +376,10 @@ body {
   /* border: none; */
   /* background-color: rgb(61, 150, 222); */
 }
+#portfolio{
+  border-bottom: 2px solid var(--font-dark);
+  width: 170px;
+}
 #projects {
   border: 2px solid red;
   /* width: 80vw; */
@@ -408,6 +412,10 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
+}
+#blogging{
+  border-bottom: 2px solid var(--font-dark);
+  width: 310px;
 }
 #articles {
   /* place-content: center; */
@@ -445,6 +453,10 @@ body {
 }
 #contact {
   padding-bottom: 2rem;
+}
+#contact_me{
+  border-bottom: 2px solid var(--font-dark);
+  width: 250px;
 }
 #contact form {
   display: flex;
