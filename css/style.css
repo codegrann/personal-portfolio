@@ -288,15 +288,30 @@ body {
   height: 75px;
   /* border: 2px solid red; */
   border-radius: 50%;
-  /* animation: rotate 5s ease-out infinite; */
-  /* transform: rotate(45deg); */
-  /* background-image: url(ass);  */
-  /* filter: blur(50rem); */
   filter: brightness(10%);
   filter: grayscale(20%);
-  /* transform: rotate(360deg); */
-  /* transition: transform 10s; */
-  animation: tech-rotate 10s infinite ease-in-out alternate-reverse;
+  /* animation: tech-rotate 10s infinite ease-in-out alternate-reverse; */
+}
+.techs:nth-child(odd){
+  animation: tech-rotate 20s infinite ease-in-out alternate-reverse;
+}
+.techs:nth-child(even){
+  animation: tech-rotate 10s infinite ease-in-out alternate;
+}
+#about_avatar{
+  animation: tech-rotater 10s infinite ease-in-out;
+   /* transform: rotate3d(0, 1, 0, 60deg) */
+}
+@keyframes tech-rotater {
+  10%{
+    transform: rotate3d(0, 1, 1, 60deg);
+  }
+  50%{
+    transform: rotate3d(1, 1, 1, 60deg);
+  }
+  100%{
+    transform: rotate3d(1, 1, 0, 60deg);
+  }
 }
 @keyframes tech-rotate {
   0% {
