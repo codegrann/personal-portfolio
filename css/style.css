@@ -292,36 +292,34 @@ body {
   filter: grayscale(20%);
   /* animation: tech-rotate 10s infinite ease-in-out alternate-reverse; */
 }
-.techs:nth-child(odd){
+.techRotate1{
   animation: tech-rotate 20s infinite ease-in-out alternate-reverse;
 }
-.techs:nth-child(even){
+.techRotate2{
   animation: tech-rotate 10s infinite ease-in-out alternate;
 }
-
+.techRotate3{
+  animation: tech-translate 20s infinite ease-in-out alternate-reverse;
+}
 @keyframes tech-rotate {
-  0% {
+  from {
     transform: rotate(0deg);
-     transform-origin:center center ;
-        transform : rotateY(0deg) translateZ(20px);
   }
-  50% {
-    /* transform: rotate(180deg); */
-  }
-  100% {
+  to{
     transform: rotate(360deg);
-     transform-origin:center center ;
-        transform :rotateY(360deg) translateZ(50px);
   }
-   /* from {  */
-        /* transform-origin:center center ; */
-        /* transform : rotateY(0deg) translateZ(20px); */
-    /* } */
-    /*  */
-    /* to {  */
-        /* transform-origin:center center ; */
-        /* transform :rotateY(360deg) translateZ(50px); */
-    /* } */
+  
+}
+@keyframes tech-translate{
+   from { 
+        transform-origin:center center ;
+        transform : rotateY(0deg) translateZ(5px);
+    }
+    
+    to { 
+        transform-origin:center center ;
+        transform :rotateY(360deg) translateZ(10px);
+    }
 }
 .techs img {
   width: 100%;
