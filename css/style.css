@@ -256,7 +256,11 @@ body {
   flex-direction: column;
 }
 .skills h1,
-.skills h5 {
+.skills h5,
+#serve,
+#portfolio,
+#blogging,
+#contact_me {
   margin-left: 5vw;
 }
 #technologies {
