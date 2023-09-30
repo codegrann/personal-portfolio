@@ -278,13 +278,14 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   transform: translateY(20%);
-  gap: 2rem;
+  row-gap: 1rem;
+  column-gap: 2rem;
   border: 2px solid rgb(15, 26, 242);
   /* text-align: center; */
 }
 .techs {
-  width: 90px;
-  height: 90px;
+  width: 75px;
+  height: 75px;
   border: 2px solid red;
   border-radius: 50%;
   /* animation: rotate 5s ease-out infinite; */
