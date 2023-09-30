@@ -299,19 +299,36 @@ body {
   animation: tech-rotate 10s infinite ease-in-out alternate;
 }
 #about_avatar{
+    perspective: 500px;
+       transform-origin: center center;
+          transform-origin: center center;
+   transform-style: preserve-3d;
   animation: tech-rotater 10s infinite ease-in-out;
    /* transform: rotate3d(0, 1, 0, 60deg) */
 }
 @keyframes tech-rotater {
   10%{
-    transform: rotate3d(0, 1, 1, 60deg);
+    transform: rotate3d(1, 0, 0, 30deg);
+  }
+  30%{
+
+   transform: rotate3d(0, 1, 0, 30deg)
   }
   50%{
-    transform: rotate3d(1, 1, 1, 60deg);
+    transform: rotate3d(0, 0, 1, 30deg);
   }
-  100%{
-    transform: rotate3d(1, 1, 0, 60deg);
+  70%{
+    transform: rotate3d(0, 1, 1, -30deg);
   }
+85%{
+ transform: rotate3d(1, 1, 0, -30deg)
+
+}
+100%{
+transform: rotate3d(1, 0, 0, -30deg)
+}
+  
+   
 }
 @keyframes tech-rotate {
   0% {
