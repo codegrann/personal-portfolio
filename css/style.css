@@ -384,6 +384,10 @@ body {
   color: var(--bg-light);
   text-decoration: none;
 }
+#hireme button a:hover{
+  opacity: 0.5;
+/* background-color: ; */
+}
 #portfolio{
   border-bottom: 2px solid var(--font-dark);
   width: 170px;
