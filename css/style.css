@@ -380,6 +380,10 @@ body {
   /* border: none; */
   /* background-color: rgb(61, 150, 222); */
 }
+#hireme button a{
+  color: var(--bg-light);
+  text-decoration: none;
+}
 #portfolio{
   border-bottom: 2px solid var(--font-dark);
   width: 170px;
