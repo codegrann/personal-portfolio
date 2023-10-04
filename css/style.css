@@ -365,7 +365,7 @@ body {
   /* height: 40%; */
 }
 #hireme {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 30vh;
   /* color: rgb(196, 234, 230); */
   color: var(--text-color);
@@ -576,8 +576,10 @@ body {
   width: 120px;
   }
   #hireme p{
-    color: red;
-    font-size: 10pt;
+    /* color: red; */
+    font-size:10pt;
+    line-height: 2;
+    letter-spacing: -2px;
   }
 }
 @media (max-width: 480px) {
