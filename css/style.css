@@ -409,8 +409,10 @@ body {
 }
 .project {
   width: 280px;
+  border: 0.075rem solid rgb(187, 183, 183);
+  padding-bottom: 5px;
   /* height: 55vh; */
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   overflow: hidden;
 }
 .were {
@@ -419,7 +421,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 50%;
-  border: 3px dashed red;
+  /* border: 3px dashed red; */
   transition: transform var(--transition-slow) ease-in-out;
   /* overflow: hidden; */
 }
@@ -442,7 +444,8 @@ body {
   /* z-index: 2; */
 }
 .projDetails h2{
-color: red;
+/* color: red; */
+font-size: 18pt;
 }
 .live{
 background: transparent;
@@ -469,7 +472,16 @@ padding-inline: 0.9px;
   color: var(--font-light);
 }
 .view_more{
+  width: 100px;
+  height: 30px;
+  font-family: var(--font-primary);
+  font-size: var(--small-font);
+  letter-spacing: -0.6px;
+  padding-block: 1px;
 
+}
+.view_more:hover{
+  background: #080808;
 }
 #blogging{
   border-bottom: 1px solid var(--font-dark);
