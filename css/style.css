@@ -408,7 +408,7 @@ body {
   row-gap: 1.5rem;
 }
 .project {
-  width: 350px;
+  width: 280px;
   /* height: 55vh; */
   border: 2px solid yellow;
   overflow: hidden;
@@ -418,6 +418,16 @@ body {
   height: 233px;
   border: 3px dashed red;
   overflow: hidden;
+}
+#were{
+  background-image: url(../assets/theband.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  /* overflow: hidden; */
+}
+#were:hover{
+  transform: scale(1.5);
 }
 .project img:hover {
   transform: scale(1.3);
