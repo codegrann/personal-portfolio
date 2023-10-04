@@ -35,7 +35,7 @@ body {
   font-size: 18px;
   font-weight: 450;
   letter-spacing: 0.8px;
-  box-shadow: 5px 5px 5px rgb(86, 80, 80);
+  box-shadow: 3px 3px 8px rgb(86, 80, 80);
 }
 #navbar div {
   /* border: 2px solid green; */
@@ -500,11 +500,15 @@ padding-inline: 0.9px;
   width: 310px;
   text-align: center;
 }
+#blog{
+  background-color: black;
+  padding-block: 2rem;
+}
 #articles {
   /* place-content: center; */
 }
 #unary {
-  border: 2px solid blue;
+  border: 2px solid rgb(209, 209, 234);
   width: 300px;
   background: #afa6a6;
   text-align: center;
@@ -521,7 +525,7 @@ padding-inline: 0.9px;
   flex-wrap: wrap;
   place-content: center;
   column-gap: 3%;
-  border: 2px solid black;
+  border: 2px solid rgb(221, 203, 203);
 }
 #newsletter p {
   width: 100%;
