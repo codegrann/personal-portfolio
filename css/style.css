@@ -341,6 +341,7 @@ body {
   padding-top: 1.5rem;
   border-bottom: 2px solid var(--font-dark);
   width: 180px;
+  text-align: center;
 }
 #services {
   /* border: 2px solid black; */
@@ -394,6 +395,7 @@ body {
 #portfolio{
   border-bottom: 2px solid var(--font-dark);
   width: 170px;
+  text-align: center;
 }
 #projects {
   border: 2px solid red;
@@ -431,6 +433,7 @@ body {
 #blogging{
   border-bottom: 2px solid var(--font-dark);
   width: 310px;
+  text-align: center;
 }
 #articles {
   /* place-content: center; */
@@ -472,6 +475,7 @@ body {
 #contact_me{
   border-bottom: 2px solid var(--font-dark);
   width: 250px;
+  text-align: center;
 }
 #contact form {
   display: flex;
@@ -611,6 +615,7 @@ body {
   }
   #serve{
     width: 150px;
+    text-align: center;
   }
   #services {
     flex-direction: column;
