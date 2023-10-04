@@ -523,8 +523,14 @@ padding-inline: 0.9px;
   border: none;
   border-radius: 3px;
   padding-block: 0.75rem;
+  transition: box-shadow, transform var(--transition-quick) ease-in;
+  box-shadow: 3px 3px 5px rgb(96, 92, 92);
   /* margin-left: 5rem; */
   margin: 0 auto;
+}
+#unary:hover{
+  box-shadow: 4px 4px 5px rgb(96, 94, 94);
+  transform: translateY(-1px);
 }
 #unary img {
   width: 100%;
@@ -540,6 +546,7 @@ padding-inline: 0.9px;
   place-content: center;
   column-gap: 3%;
   /* border: 0.6px solid rgb(221, 203, 203); */
+  border-radius: 3px;
   box-shadow: 1px 1px 5px white, -1px -1px 3px white;
 }
 #newsletter p {
