@@ -503,6 +503,10 @@ padding-inline: 0.9px;
 #blog{
   background-color: black;
   padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  color: var(--font-light);
 }
 #articles {
   /* place-content: center; */
