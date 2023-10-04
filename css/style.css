@@ -499,6 +499,7 @@ padding-inline: 0.9px;
   border-bottom: 1px solid var(--font-dark);
   width: 310px;
   text-align: center;
+  text-shadow: 6px 6px 14px white;
 }
 #blog{
   background-color: black;
@@ -521,7 +522,7 @@ padding-inline: 0.9px;
   text-align: center;
   border: none;
   border-radius: 3px;
-  padding-block: 0.74rem;
+  padding-block: 0.75rem;
   /* margin-left: 5rem; */
   margin: 0 auto;
 }
@@ -630,6 +631,9 @@ padding-inline: 0.9px;
   }
   #about_text{
     /* width:; */
+  }
+  #unary{
+    width: 250px;
   }
 }
 @media (max-width: 370px) {
