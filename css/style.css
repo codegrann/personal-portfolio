@@ -532,12 +532,15 @@ padding-inline: 0.9px;
   margin-bottom: 1rem;
 }
 #newsletter {
-  /* width: ; */
+  width: 500px;
+  margin: 0 auto;
+  padding-block: 15px;
   display: flex;
   flex-wrap: wrap;
   place-content: center;
   column-gap: 3%;
-  border: 2px solid rgb(221, 203, 203);
+  /* border: 0.6px solid rgb(221, 203, 203); */
+  box-shadow: 1px 1px 5px white, -1px -1px 3px white;
 }
 #newsletter p {
   width: 100%;
