@@ -395,18 +395,19 @@ body {
 #portfolio{
   border-bottom: 1px solid var(--font-dark);
   width: 170px;
+  margin-top: 2rem;
   text-align: center;
 }
 #projects {
   /* border: 2px solid red; */
   /* width: 80vw; */
-  margin: 0 auto;
+  margin: 1rem auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 0.75rem;
   row-gap: 1.5rem;
-  padding-block: 3rem;
+  padding-block: 2rem;
 }
 .project {
   width: 280px;
@@ -611,6 +612,9 @@ padding-inline: 0.9px;
   }
   #newsletter button {
     /* display: block; */
+  }
+  #about_text{
+    /* width:; */
   }
 }
 @media (max-width: 370px) {
