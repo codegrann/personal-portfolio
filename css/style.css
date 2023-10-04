@@ -420,8 +420,8 @@ body {
   background-repeat: no-repeat;
   background-position-y: 50%;
   border: 3px dashed red;
-  overflow: hidden;
-  z-index: -1;
+  transition: transform var(--transition-slow) ease-in-out;
+  /* overflow: hidden; */
 }
 .were:hover{
   transform: scale(1.5);
