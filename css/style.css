@@ -792,6 +792,9 @@ padding-inline: 0.9px;
     border: none;
     text-align: start;
   }
+  .project{
+    box-shadow: -2px 0 5px gray,2px 0 5px gray;
+  }
 }
 @media (max-width: 890px) {
   #introImg img {
