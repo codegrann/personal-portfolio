@@ -2,6 +2,7 @@
   --text-color: rgb(196, 234, 230);
   --font-primary: Montserrat;
   --bg-light: rgb(239, 236, 236);
+  --bg-dark:rgb(8, 8, 15);
   --small-font: 15px;
   --transition-quick: 200ms;
   --transition-slow: 500ms;
@@ -502,7 +503,8 @@ padding-inline: 0.9px;
   text-shadow: 6px 6px 14px white;
 }
 #blog{
-  background-color: black;
+  background-color: var(--bg-dark);
+  /* background-color: rgb(15, 15, 15); */
   padding-block: 2rem;
   display: flex;
   flex-direction: column;
@@ -530,7 +532,7 @@ padding-inline: 0.9px;
 }
 #unary:hover{
   box-shadow: 4px 4px 5px rgb(96, 94, 94);
-  transform: translateY(-1px);
+  transform: translateY(-0.15rem);
 }
 #unary img {
   width: 100%;
