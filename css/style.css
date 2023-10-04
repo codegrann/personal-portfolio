@@ -404,8 +404,8 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 2rem;
-  row-gap: 2.5rem;
+  column-gap: 0.75rem;
+  row-gap: 1.5rem;
 }
 .project {
   width: 350px;
