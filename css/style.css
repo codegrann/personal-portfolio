@@ -368,6 +368,7 @@ body {
 }
 #hireme {
   /* border: 2px solid red; */
+  background-color: var(--bg-dark);
   height: 30vh;
   /* color: rgb(196, 234, 230); */
   color: var(--text-color);
@@ -386,6 +387,7 @@ body {
   /* background-color: rgb(61, 150, 222); */
 }
 #hireme button a{
+  width: 100%;
   color: var(--bg-light);
   text-decoration: none;
 }
@@ -511,6 +513,8 @@ padding-inline: 0.9px;
   row-gap: 3rem;
   font-family: var(--font-primary);
   color: var(--font-light);
+  /* opacity: 0.9; */
+  /* -moz-backdrop-filter: opacity(0.1); */
 }
 #articles {
   /* place-content: center; */
@@ -594,7 +598,8 @@ padding-inline: 0.9px;
 }
 #footer {
   height: 250px;
-  background-color: #051b35;
+  background-color: var(--bg-dark);
+  /* background-color: #051b35; */
   /* display: flex; */
   /* flex-direction: column; */
   /* align */
