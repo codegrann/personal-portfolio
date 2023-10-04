@@ -576,7 +576,8 @@ body {
   width: 120px;
   }
   #hireme p{
-    font-size: 14pt;
+    color: red;
+    font-size: 10pt;
   }
 }
 @media (max-width: 480px) {
@@ -615,9 +616,13 @@ body {
     position: relative;
     width: 85vw;
   }
+  #hireme{
+    height: 20vh;
+  }
   #hireme p{
     /* display: none; */
     font-size: 20pt;
+    margin-bottom: -1rem;
   }
   #hireme button{
     width: 200px;
