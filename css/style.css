@@ -445,7 +445,12 @@ body {
 }
 .projDetails h2{
 /* color: red; */
-font-size: 18pt;
+font-size: 14pt;
+}
+.live,
+.view_more,
+.projDetails h2{
+  margin-left: 6px;
 }
 .live{
 background: transparent;
@@ -454,10 +459,10 @@ height: 30px;
 font-size: 10pt;
 font-family: var(--font-primary);
 font-weight: 600;
+margin-right: 2px;
 border: none;
 border-radius: 2px;
 border: 1px solid rgb(190, 186, 186);
-margin-right: 2px;
 padding-inline: 0.9px;
 /* text-align: center; */
 /* box-shadow: 2px 2px 2px grey, -2px -2px 2px grey; */
