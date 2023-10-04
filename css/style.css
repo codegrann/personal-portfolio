@@ -715,6 +715,13 @@ body {
   #hireme {
     flex-direction: column;
   }
+  #serve,
+  #portfolio,
+  #blogging,
+  #contact_me{
+    border: none;
+    text-align: start;
+  }
 }
 @media (max-width: 890px) {
   #introImg img {
