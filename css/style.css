@@ -172,8 +172,10 @@ body {
 } */
 
 #about_page {
-/*  background-color: var(--bg-light);*/
-  background-image: url(../assets/wave.svg);
+  background-color: var(--bg-light);
+  /*background-image: url(../assets/wave.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 0;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,10 +185,7 @@ body {
 }
 #about_text {
   /* border: 2px solid blue; */
-  /*background: transparent;*/
-  background-color: var(--bg-light);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: transparent;
   width: 40%;
   padding-inline: 0.75rem;
   font-family: var(--font-primary);
