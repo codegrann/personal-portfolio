@@ -172,7 +172,8 @@ body {
 } */
 
 #about_page {
-  background-color: var(--bg-light);
+/*  background-color: var(--bg-light);*/
+  background-image: url(../assets/wave.svg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,7 +183,10 @@ body {
 }
 #about_text {
   /* border: 2px solid blue; */
-  background: transparent;
+  /*background: transparent;*/
+  background-color: var(--bg-light);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 40%;
   padding-inline: 0.75rem;
   font-family: var(--font-primary);
