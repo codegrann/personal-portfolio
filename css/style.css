@@ -205,7 +205,7 @@ body {
 }
 #about_avatar {
   width: 300px;
-  border-radius: 50%;
+  border-radius: 36% 78% 78% 36%/38% 38% 70% 70%;
   box-shadow: 5px 5px 20px rgb(66, 64, 64);
   filter: sepia(0.5);
   transition: all var(--transition-slow) ease-out;
@@ -217,7 +217,7 @@ body {
 }
 #about_avatar img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 36% 78% 78% 36%/38% 38% 70% 70%;
 }
 /* .about_decor{ */
 /* width: 100px; */
