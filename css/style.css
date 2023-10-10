@@ -27,9 +27,9 @@ body {
   /* background-color: #000; */
 }
 .navbar-brand h3 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: red;
+  font-family: Yellowtail;
+  font-size: 26pt;
+  /* color: red; */
 }
 #navbar {
   /* background: #383838; */
