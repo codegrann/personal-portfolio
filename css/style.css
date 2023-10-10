@@ -702,7 +702,7 @@ body {
   #newsletter p,
   #newsletter button,
   #news_input {
-    margin-left: -1rem;
+    margin-left: -1.5rem;
   }
   #newsletter button {
     /* margin: 0.75rem; */
@@ -734,7 +734,7 @@ body {
     letter-spacing: -2px;
   }
   #footer {
-    height: 100px;
+    height: 150px;
   }
 }
 @media (max-width: 480px) {
