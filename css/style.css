@@ -526,7 +526,7 @@ body {
   width: 290px;
   /* height: ; */
   background: var(--bg-light);
-/*bckground-image:  linear-gradient(
+  /*bckground-image:  linear-gradient(
     to bottom,
     hsl(330, 21.43%, 89.02%) 0%,
     hsl(330, 20.24%, 88.45%) 8.1%,
@@ -764,6 +764,10 @@ body {
   #hireme button {
     width: 200px;
     font-size: 12pt;
+  }
+  #newsletter {
+    width: 350px;
+    /* padding-inline: -1rem; */
   }
   #newsletter button {
     /* margin-top: 0.75rem; */
