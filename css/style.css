@@ -681,6 +681,13 @@ body {
   }
 }
 @media (max-width: 370px) {
+  #landingPage {
+    /* display: none; */
+    height: 100vh;
+  }
+  #intro {
+    margin-top: -4rem;
+  }
   #technologies {
     display: flex;
     width: 100vw;
