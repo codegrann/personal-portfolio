@@ -520,7 +520,7 @@ body {
 #blog {
   background-color: var(--bg-dark);
   /* background-color: rgb(15, 15, 15); */
-  padding-block: 2rem;
+  padding-block: 3.5rem;
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
