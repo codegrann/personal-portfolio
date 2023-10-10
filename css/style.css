@@ -599,7 +599,7 @@ body {
   transition-timing-function: ease-out;
 }
 #contact {
-  padding-bottom: 2rem;
+  padding-block: 2rem;
 }
 #contact_me {
   width: 250px;
