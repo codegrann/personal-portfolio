@@ -406,6 +406,9 @@ body {
   opacity: 0.5;
   /* background-color: ; */
 }
+#portfolio-page {
+  padding-top: 2.1rem;
+}
 #portfolio {
   border-bottom: 1px solid var(--font-dark);
   width: 170px;
