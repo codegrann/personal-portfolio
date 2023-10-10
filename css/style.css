@@ -770,6 +770,9 @@ body {
     row-gap: 15px;
     /* padding-inline: -1rem; */
   }
+  #news_input {
+    margin-top: -1rem;
+  }
   #newsletter button {
     /* margin-top: 0.75rem; */
     /* position: relative; */
