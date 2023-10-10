@@ -751,6 +751,12 @@ body {
   #navbar {
     height: 9vh;
   }
+  #navbar-toggler {
+    /* display: none; */
+    background-color: rgb(121, 112, 112);
+    color: white;
+    border: 1px solid rgb(96, 93, 93);
+  }
   #landingPage {
     /* display: none; */
     height: 100vh;
