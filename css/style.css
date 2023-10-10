@@ -667,6 +667,11 @@ body {
   #newsletter button {
     /* display: block; */
   }
+  #newsletter p,
+  #newsletter button,
+  #news_input {
+    margin-left: -2rem;
+  }
   #about_text {
     /* width:; */
   }
