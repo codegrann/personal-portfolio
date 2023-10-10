@@ -767,6 +767,7 @@ body {
   }
   #newsletter {
     width: 350px;
+    row-gap: 15px;
     /* padding-inline: -1rem; */
   }
   #newsletter button {
