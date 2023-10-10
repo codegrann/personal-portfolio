@@ -686,7 +686,7 @@ body {
     height: 100vh;
   }
   #intro {
-    margin-top: -4rem;
+    /* margin-top: -4rem; */
   }
   #technologies {
     display: flex;
@@ -720,6 +720,9 @@ body {
     width: 100%;
     /* display: none; */
   }
+  #intro a {
+    /* top: 58%; */
+  }
   #name-anime {
     font-size: 10px;
   }
@@ -747,6 +750,16 @@ body {
 @media (max-width: 480px) {
   #navbar {
     height: 9vh;
+  }
+  #landingPage {
+    /* display: none; */
+    height: 100vh;
+  }
+  #intro {
+    margin-top: -4rem;
+  }
+  #intro a {
+    top: 58%;
   }
   #about_text {
     /* width: 100%; */
