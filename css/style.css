@@ -31,6 +31,9 @@ body {
 .modal-body p {
   text-align: left;
 }
+.modal-footer a {
+  font-family: var(--font-primary);
+}
 #header {
   /* height: 500px; */
   /* border: 3px solid yellow; */
