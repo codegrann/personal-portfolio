@@ -21,6 +21,16 @@ body {
 .modal {
   text-align: center;
 }
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  align-items: center;
+  font-family: var(--font-primary);
+}
+.modal-body p {
+  text-align: left;
+}
 #header {
   /* height: 500px; */
   /* border: 3px solid yellow; */
