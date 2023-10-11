@@ -471,7 +471,7 @@ body {
   background-repeat: no-repeat;
   background-position-y: 50%;
   /* border: 3px dashed red; */
-  transition: transform var(--transition-slow) ease-in;
+  transition: transform var(--transition-slow) ease;
   /* overflow: hidden; */
 }
 .project:hover .were {
