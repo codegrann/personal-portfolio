@@ -65,7 +65,14 @@ body {
   /* margin-right: 15px; */
 }
 #landingPage {
-  background-color: rgb(8, 8, 15);
+  /* background-color: rgb(8, 8, 15); */
+  background: rgb(12, 7, 97);
+  background: linear-gradient(
+    30deg,
+    rgba(12, 7, 97, 1) 0%,
+    rgba(12, 7, 97, 1) 0%,
+    rgba(8, 8, 15, 1) 66%
+  );
   height: 100vh;
 }
 #intro {
