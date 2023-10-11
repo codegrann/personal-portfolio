@@ -617,14 +617,16 @@
       <section id="contact">
         <h1 id="contact_me">Contact me</h1>
         <div>
-          <form action="" class="form-control font-medium">
+          <form action="https://formsubmit.co/934bc0450c8dcc5e9e887f1225343d45" method="POST" class="form-control font-medium" enctype="multipart/form-data">
             <h4 class="form-text">GET IN TOUCH</h4>
             <h3>Contact</h3>
             <label for="name" class="form-label" id="name">Your Name</label>
             <input
               type="text"
               class="form-control mb-4 inputs"
+              name="name"
               placeholder="What's your name?"
+              required
             />
             <label for="email" class="form-label" id="email">Your Email</label>
             <input
@@ -632,6 +634,7 @@
               class="form-control mb-4 inputs"
               name="email"
               placeholder="What's your email?"
+              required
             />
             <label for="message" class="form-label" id="message"
               >Your Message</label
@@ -640,7 +643,9 @@
               name="message"
               class="form-control mb-4 inputs"
               placeholder="What's your message"
+              required
             ></textarea>
+             <input type="file" name="attachment" accept="image/png, image/jpeg, application/pdf, application/msword, text/plain, audio/mpeg, audio/wav, video/mp4, video/webm">
             <button type="submit" class="btn btn-outline-primary">
               send <i class="bi bi-envelope-arrow-up"></i>
               <svg
@@ -659,6 +664,10 @@
                 />
               </svg>
             </button>
+            <input type="hidden" name="_next" value="https://thank-you-page-smoky.vercel.app/#">
+            <input type="hidden" name="_subject" value="Inquiry">
+            <input type="hidden" name="_autoresponse" value="Thank you for reaching out. I will be with you in a while 🤗🤗.">
+            <input type="hidden" name="_template" value="box">
           </form>
         </div>
       </section>
