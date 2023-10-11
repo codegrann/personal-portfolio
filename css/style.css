@@ -626,6 +626,9 @@ body {
 .inputs {
   min-height: 60px;
 }
+input[type="file"] {
+  margin-bottom: 1rem;
+}
 #contact textarea {
   height: 170px;
 }
