@@ -673,7 +673,6 @@ input[type="file"] {
     height: 20vh;
   }
   #hireme p {
-    /* display: none; */
     font-size: 20pt;
     margin-bottom: -1rem;
   }
@@ -684,15 +683,9 @@ input[type="file"] {
   #newsletter {
     width: 350px;
     row-gap: 15px;
-    /* padding-inline: -1rem; */
   }
   #news_input {
     margin-top: -1rem;
-  }
-  #newsletter button {
-    /* margin-top: 0.75rem; */
-    /* position: relative; */
-    /* top: 3rem; */
   }
   #contact div {
     width: 90%;
@@ -722,8 +715,6 @@ input[type="file"] {
   .navbar-nav {
     display: flex;
     padding-bottom: 10px;
-    /* row-gap: 1px; */
-    /* flex-direction: row; */
   }
   .nav-link {
     margin-bottom: -10px;
@@ -736,8 +727,6 @@ input[type="file"] {
   #intro {
     width: 80%;
     padding-inline: 1rem;
-    /* word-wrap: break-word; */
-    /* flex-wrap: wrap; */
   }
   #introImg {
     width: 300px;
@@ -753,9 +742,6 @@ input[type="file"] {
   }
   #technologies {
     gap: 1.2rem;
-  }
-  .techs {
-    /* width: 15vw; */
   }
   #services {
     column-gap: 0.9rem;
