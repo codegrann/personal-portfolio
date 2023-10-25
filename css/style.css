@@ -39,7 +39,7 @@ body {
   font-size: 26pt;
 }
 #navbar {
-  height: 10vh;
+  height: 11vh;
   display: grid;
   grid-template-columns: 1fr 2fr;
   font-size: 18px;
