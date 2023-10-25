@@ -45,6 +45,7 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 ### Contact
 
 - Structured a contact form to contain fields for name, email and message, plus a submit button to send the message.
+- Integrated FormSubmit services to deliver mails to my inbox.
 
 ## FOOTER
 
@@ -70,6 +71,9 @@ This is my personal website, showcasing my skills and portfolio. It is built wit
 
 ### Libraries
 
-- Bootstrap, AOS, Bootstrap Icons
+- Bootstrap, AOS, Bootstrap Icons, Font Awesome
 
 ### Hosting
+
+- GitHub Pages
+- Vercel
