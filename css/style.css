@@ -16,7 +16,6 @@ body {
   margin: 0;
   padding-top: 4rem;
   overflow-x: hidden;
-  /* background-color: black; */
 }
 .modal {
   text-align: center;
@@ -34,34 +33,21 @@ body {
 .modal-footer a {
   font-family: var(--font-primary);
 }
-#header {
-  /* height: 500px; */
-  /* border: 3px solid yellow; */
-  /* background-color: #000; */
-}
+
 .navbar-brand h3 {
   font-family: Yellowtail;
   font-size: 26pt;
-  /* color: red; */
 }
 #navbar {
-  /* background: #383838; */
   height: 10vh;
-  /* border: 2px solid red; */
   display: grid;
   grid-template-columns: 1fr 2fr;
-  /* font-family: Mova; */
   font-size: 18px;
   font-weight: 450;
   letter-spacing: 0.8px;
   box-shadow: 3px 3px 8px rgb(86, 80, 80);
 }
-#navbar div {
-  /* border: 2px solid green; */
-}
 #navbar-collapse-toggle {
-  /* border: 2px solid white; */
-  /* margin-left: 10%; */
   justify-content: center;
 }
 .navbar-nav {
@@ -69,16 +55,12 @@ body {
   gap: 5%;
 }
 .nav-link {
-  /* color: rgb(196, 234, 230); * */
   color: var(--text-color);
 }
 .navbar-toggler {
   width: 5rem;
-  /* order: ; */
-  /* margin-right: 15px; */
 }
 #landingPage {
-  /* background-color: rgb(8, 8, 15); */
   background: rgb(12, 7, 97);
   background: linear-gradient(
     30deg,
@@ -89,7 +71,6 @@ body {
   height: 100vh;
 }
 #intro {
-  /* border: 2px solid rgb(170, 161, 161); */
   box-shadow: 3px 3px 3px white, -3px -3px 3px white;
   border-radius: 2px;
   color: var(--text-color);
@@ -102,12 +83,9 @@ body {
   padding-block: 3rem;
 }
 #wave {
-  /* background-color: red; */
   animation: welcome 2s ease-in-out infinite;
-  /* visibility: hidden; */
   display: inline-block;
   transform-origin: 30px 30px;
-  /* transform: rotate(30deg); */
 }
 @keyframes welcome {
   0% {
@@ -117,26 +95,18 @@ body {
   }
   30% {
     visibility: visible;
-    /* background-color: blue; */
-    /* opacity: 0.3; */
     transform: rotate(-30deg);
-    /* transform: translate(2); */
   }
   50% {
-    /* background-color: green; */
-    /* opacity: 0.5; */
     transform: rotate(90deg);
-    /* transform: translate(1); */
   }
   60% {
     transform: rotate(-30deg);
   }
   80% {
-    /* opacity: 0.8; */
     transform: rotate(30deg);
   }
   95% {
-    /* opacity: 0.9; */
     visibility: hidden;
   }
 }
