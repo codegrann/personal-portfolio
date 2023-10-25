@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const nameAnimation = document.querySelector("#name-anime");
   const name = "I'm a passionate web developer";
   nameAnimation.style.color = "aqua";
-  // nameAnimation.innerHTML = "hey";
   let isTyping = true;
   let charIndex = 0;
 
