@@ -569,8 +569,6 @@ input[type="file"] {
   #landingPage {
     height: 100vh;
   }
-  #intro {
-  }
   #technologies {
     display: flex;
     width: 100vw;
