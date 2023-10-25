@@ -541,13 +541,9 @@ input[type="file"] {
   width: 35px;
   height: 35px;
   line-height: 34px;
-  /* width: 40px; */
-  /* height: 40px; */
-  /* line-height: 40px; */
   border-radius: 3px;
   transition: color, background-color var(--transition-slow);
   transition-timing-function: ease-out;
-  /* text-align: center; */
 }
 #footer .socials a:hover {
   background: transparent;
@@ -560,19 +556,10 @@ input[type="file"] {
   #services {
     padding: 0;
   }
-  #newsletter input {
-    /* width: 70%; */
-  }
-  #newsletter button {
-    /* display: block; */
-  }
   #newsletter p,
   #newsletter button,
   #news_input {
     margin-left: -2rem;
-  }
-  #about_text {
-    /* width:; */
   }
   #unary {
     width: 250px;
@@ -580,11 +567,9 @@ input[type="file"] {
 }
 @media (max-width: 370px) {
   #landingPage {
-    /* display: none; */
     height: 100vh;
   }
   #intro {
-    /* margin-top: -4rem; */
   }
   #technologies {
     display: flex;
@@ -598,10 +583,6 @@ input[type="file"] {
     height: 50px;
   }
   #newsletter {
-    /* display: none; */
-    /* width: 100px; */
-    /* border: none; */
-    /* padding-left: -1.5rem; */
     box-shadow: none;
   }
   #newsletter p,
@@ -610,16 +591,11 @@ input[type="file"] {
     margin-left: -1.5rem;
   }
   #newsletter button {
-    /* margin: 0.75rem; */
     border: 2px solid red;
     margin-top: 0.5rem;
   }
   #intro {
     width: 100%;
-    /* display: none; */
-  }
-  #intro a {
-    /* top: 58%; */
   }
   #name-anime {
     font-size: 10px;
@@ -629,14 +605,12 @@ input[type="file"] {
   }
   #about_text {
     width: 80vw;
-    /* border: 2px solid red; */
     padding-bottom: 2rem;
   }
   #serve {
     width: 120px;
   }
   #hireme p {
-    /* color: red; */
     font-size: 10pt;
     line-height: 2;
     letter-spacing: -2px;
@@ -650,13 +624,11 @@ input[type="file"] {
     height: 9vh;
   }
   #navbar-toggler {
-    /* display: none; */
     background-color: rgb(121, 112, 112);
     color: white;
     border: 1px solid rgb(96, 93, 93);
   }
   #landingPage {
-    /* display: none; */
     height: 100vh;
   }
   #intro {
@@ -666,7 +638,6 @@ input[type="file"] {
     top: 58%;
   }
   #about_text {
-    /* width: 100%; */
     padding-inline: 0.5rem;
   }
   #about_avatar {
