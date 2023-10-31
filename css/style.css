@@ -622,6 +622,7 @@ input[type="file"] {
 }
 @media (max-width: 480px) {
   #navbar {
+    width: 100vw;
     height: 11vh;
   }
   #navbar-toggler {
@@ -722,6 +723,7 @@ input[type="file"] {
     color: rgb(47, 0, 255);
   }
   #landingPage {
+    width: 100vw;
     flex-direction: column;
     height: 80vh;
   }
