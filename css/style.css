@@ -39,6 +39,7 @@ body {
   font-size: 26pt;
 }
 #navbar {
+  width: 100vw;
   height: 11vh;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -61,6 +62,8 @@ body {
   width: 5rem;
 }
 #landingPage {
+  width: 100vw;
+  height: 100vh;
   background: rgb(12, 7, 97);
   background: linear-gradient(
     30deg,
@@ -68,7 +71,6 @@ body {
     rgba(12, 7, 97, 1) 0%,
     rgba(8, 8, 15, 1) 66%
   );
-  height: 100vh;
 }
 #intro {
   box-shadow: 3px 3px 3px white, -3px -3px 3px white;
