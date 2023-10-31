@@ -622,7 +622,7 @@ input[type="file"] {
 }
 @media (max-width: 480px) {
   #navbar {
-    width: 100vw;
+    /* width: 100vw; */
     height: 11vh;
   }
   #navbar-toggler {
@@ -631,6 +631,7 @@ input[type="file"] {
     border: 1px solid rgb(96, 93, 93);
   }
   #landingPage {
+    /* width: 100vw; */
     height: 100vh;
   }
   #intro {
