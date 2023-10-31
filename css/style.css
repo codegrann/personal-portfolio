@@ -570,7 +570,7 @@ input[type="file"] {
 }
 @media (max-width: 370px) {
   #landingPage {
-    height: 100vh;
+    height: 200vh;
   }
   #technologies {
     display: flex;
