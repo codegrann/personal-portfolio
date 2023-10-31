@@ -570,7 +570,7 @@ input[type="file"] {
 }
 @media (max-width: 370px) {
   #landingPage {
-    height: 200vh;
+    min-height: 100vh;
   }
   #technologies {
     display: flex;
@@ -632,7 +632,13 @@ input[type="file"] {
   }
   #landingPage {
     /* width: 100vw; */
-    height: 100vh;
+    min-height: 100vh;
+  }
+  #landingPage .btn {
+    position: relative;
+    top: 105px;
+    /* margin-bottom: -2rem; */
+    /* background-color: red; */
   }
   #intro {
     margin-top: -4rem;
