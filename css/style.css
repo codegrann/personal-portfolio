@@ -13,7 +13,8 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0;
+  /* margin-right: 8rem; */
+  width: 100vw;
   padding-top: 4rem;
   overflow-x: hidden;
 }
@@ -621,7 +622,7 @@ input[type="file"] {
 }
 @media (max-width: 480px) {
   #navbar {
-    height: 9vh;
+    height: 11vh;
   }
   #navbar-toggler {
     background-color: rgb(121, 112, 112);
