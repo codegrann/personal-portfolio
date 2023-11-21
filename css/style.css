@@ -41,7 +41,7 @@ body {
   position: relative;
   top: 17px;
   border-radius: 30%;
-  box-shadow: 0 3px 8px rgb(86, 80, 80);
+  box-shadow: 0 3px 2px rgb(86, 80, 80);
   /* font-family: Yellowtail; */
   /* font-size: 26pt; */
 }
@@ -734,6 +734,9 @@ input[type="file"] {
   .nav-link {
     margin-bottom: -10px;
     color: rgb(47, 0, 255);
+  }
+  .navbar-brand h3 img {
+    top: 6px;
   }
   #landingPage {
     width: 100vw;
