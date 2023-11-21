@@ -575,6 +575,9 @@ input[type="file"] {
   }
 }
 @media (max-width: 370px) {
+  .navbar-brand h3 img {
+    width: 90px;
+  }
   #landingPage {
     min-height: 100vh;
   }
