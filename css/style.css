@@ -39,7 +39,9 @@ body {
   width: 110px;
   height: 90px;
   position: relative;
-  top: 30px;
+  top: 17px;
+  border-radius: 30%;
+  box-shadow: 0 3px 8px rgb(86, 80, 80);
   /* font-family: Yellowtail; */
   /* font-size: 26pt; */
 }
